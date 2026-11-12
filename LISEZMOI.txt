@@ -1,0 +1,7 @@
+IMPORTANT : le dossier cache ".github" doit etre dans le depot GitHub.
+Si "Build APK" n'apparait pas dans l'onglet Actions :
+ 1) Code > Add file > Create new file
+ 2) Nom du fichier : .github/workflows/build.yml
+ 3) Collez le contenu du fichier build.yml (visible, a la racine de ce dossier)
+ 4) Commit changes
+Puis : Actions > Build APK > attendre la coche verte > Artifacts > telecharger l'APK.
